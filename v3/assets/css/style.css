@@ -514,3 +514,11 @@ input,select,textarea{font:inherit}
   .qv-grid,.co-grid{grid-template-columns:minmax(0,1fr)}
   .qv-media{min-height:0}
 }
+
+/* Navbar: keep links on one line at tablet widths */
+.nav-links a,.nav-cat span{white-space:nowrap}
+@media (max-width:1180px){
+  .nav-links{gap:16px}
+  .nav-links a{font-size:13px;letter-spacing:.02em}
+  .nav-cat{padding:0 14px;margin-left:-14px;font-size:13px}
+}
