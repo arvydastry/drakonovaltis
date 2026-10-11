@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="lt" data-lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title">Drakono valtys – plaukimas drakono valtimi grupėms su kapitonu | Teambuildingai, bernvakariai, laisvalaikis</title>
+  <meta name="description" data-i18n-content="meta.desc" content="Išskirtinis plaukimas 20 vietų drakono valtimi su kapitonu. Įmonių teambuildingai, bernvakariai, mergvakariai, laisvalaikis draugams ir šeimoms. Užklausa per 2 minutes.">
+  <meta name="theme-color" content="#07172A">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Pereiti prie turinio</a>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="Drakono valtys">
+      <img class="brand-mark" src="assets/img/logo.png" alt="" width="64" height="44">
+      <span class="brand-text">Drakono <b>valtys</b></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Pagrindinis meniu">
+      <a href="#kam" data-i18n="nav.who">Kam skirta</a>
+      <a href="#kaip-vyksta" data-i18n="nav.how">Kaip vyksta</a>
+      <a href="#paketai" data-i18n="nav.packages">Paketai</a>
+      <a href="#galerija" data-i18n="nav.gallery">Galerija</a>
+      <a href="#duk" data-i18n="nav.faq">DUK</a>
+      <a href="#kontaktai" data-i18n="nav.contacts">Kontaktai</a>
+      <a class="nav-mobile-cta btn btn-primary" href="#uzsakymas" data-i18n="nav.cta">Užsakyti plaukimą</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Kalba / Language">
+        <button type="button" data-set-lang="lt" class="is-active" aria-label="Lietuvių">LT</button>
+        <button type="button" data-set-lang="en" aria-label="English">EN</button>
+      </div>
+      <a class="btn btn-primary btn-sm header-cta" href="#uzsakymas" data-i18n="nav.cta">Užsakyti plaukimą</a>
+      <button class="burger" id="burger" type="button" aria-label="Meniu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="px-bg hero-bg" data-parallax="0.35" style="background-image:url('https://images.pexels.com/photos/36604076/pexels-photo-36604076.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920')"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-inner">
+    <p class="eyebrow" data-i18n="hero.eyebrow">Drakono valtis · Vilnius ir visa Lietuva · gegužė – spalis</p>
+    <h1 class="hero-title">
+      <span class="w" style="--i:0"><span data-i18n="hero.t1">Viena valtis.</span></span>
+      <span class="w" style="--i:1"><span data-i18n="hero.t2">Viena komanda.</span></span>
+      <span class="w" style="--i:2"><span data-i18n="hero.t3">Vienas ritmas.</span></span>
+    </h1>
+    <p class="hero-sub" data-i18n="hero.sub">Išskirtinis plaukimas 20 vietų drakono valtimi su kapitonu – įmonių teambuildingams, bernvakariams, mergvakariams ir draugų laisvalaikiui. Patirties nereikia – tik noro irkluoti kartu.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary btn-lg magnetic" href="#uzsakymas" data-i18n="hero.cta1">Rezervuoti plaukimą</a>
+      <a class="btn btn-ghost btn-lg" href="#kaip-vyksta" data-i18n="hero.cta2">Kaip tai vyksta</a>
+    </div>
+    <ul class="hero-chips" aria-label="Privalumai">
+      <li><svg viewBox="0 0 24 24"><path d="M16 11a4 4 0 1 0-8 0 4 4 0 0 0 8 0zm-11 9a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="hero.chip1">Iki 20 žmonių valtyje</span></li>
+      <li><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span data-i18n="hero.chip2">Kapitonas ir instruktažas</span></li>
+      <li><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 9v4l3 2M9 2h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="hero.chip3">1,5–2 val. nuotykio</span></li>
+      <li><svg viewBox="0 0 24 24"><path d="M3 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="hero.chip4">Liemenės ir sauga įskaičiuota</span></li>
+    </ul>
+  </div>
+
+  <a class="hero-card tilt" href="#uzsakymas" data-prefill="teambuilding" data-package="pk.1.title">
+    <img src="https://images.pexels.com/photos/31892614/pexels-photo-31892614.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" alt="" loading="lazy">
+    <div>
+      <span class="hero-card-label" data-i18n="hero.card.label">Populiariausias pasirinkimas</span>
+      <strong data-i18n="hero.card.title">Komandos plaukimas</strong>
+      <span class="hero-card-meta" data-i18n="hero.card.meta">iki 20 asm. · 1,5 val. · su kapitonu</span>
+      <span class="hero-card-price"><span data-i18n="hero.card.price">nuo 290 € / valtis</span> <i>→</i></span>
+    </div>
+  </a>
+
+  <div class="hero-waves" aria-hidden="true">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave wave-1" d="M0,64 C240,120 480,0 720,64 C960,128 1200,0 1440,64 L1440,120 L0,120 Z"/></svg>
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path class="wave wave-2" d="M0,80 C240,20 480,130 720,80 C960,30 1200,130 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+  <a class="scroll-hint" href="#kam" aria-label="Slinkti žemyn"><span></span></a>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <ul class="marquee-list">
+      <li data-i18n="mq.1">Įmonių teambuildingai</li><li data-i18n="mq.2">Bernvakariai</li><li data-i18n="mq.3">Mergvakariai</li><li data-i18n="mq.4">Gimtadieniai</li><li data-i18n="mq.5">Draugų išvykos</li><li data-i18n="mq.6">Sporto klubai</li><li data-i18n="mq.7">Studentų renginiai</li><li data-i18n="mq.8">Šeimos šventės</li>
+    </ul>
+    <ul class="marquee-list">
+      <li data-i18n="mq.1">Įmonių teambuildingai</li><li data-i18n="mq.2">Bernvakariai</li><li data-i18n="mq.3">Mergvakariai</li><li data-i18n="mq.4">Gimtadieniai</li><li data-i18n="mq.5">Draugų išvykos</li><li data-i18n="mq.6">Sporto klubai</li><li data-i18n="mq.7">Studentų renginiai</li><li data-i18n="mq.8">Šeimos šventės</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ===== AUDIENCE ===== -->
+<section class="section audience" id="kam">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="aud.kicker">Kam tai skirta</span>
+      <h2 data-i18n="aud.title">Trys priežastys sėsti į vieną valtį</h2>
+      <p data-i18n="aud.intro">Drakono valtis plaukia tik tada, kai visi irkluoja vienu ritmu. Todėl tai geriausias būdas suvienyti kolegas, draugus ar šeimą – be jokio pasiruošimo ir be skaidrių.</p>
+    </div>
+
+    <div class="audience-grid">
+      <article class="aud-card tilt reveal" style="--d:.05s">
+        <div class="aud-media">
+          <img src="https://images.pexels.com/photos/3682409/pexels-photo-3682409.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Irklavimo komanda džiaugiasi finišu" loading="lazy">
+          <span class="aud-tag" data-i18n="aud.1.tag">Įmonėms</span>
+        </div>
+        <div class="aud-body">
+          <h3 data-i18n="aud.1.title">Teambuildingas, kurį prisimins visi</h3>
+          <p data-i18n="aud.1.text">Sinchroniškas irklavimas – tai komandinio darbo pamoka be teorijos. Kapitonas veda, būgnas diktuoja ritmą, o rezultatą iškart pajunta visa komanda.</p>
+          <ul class="checks">
+            <li data-i18n="aud.1.li1">Nuo 10 iki 100+ dalyvių (kelios valtys)</li>
+            <li data-i18n="aud.1.li2">Varžybos tarp skyrių ar komandų</li>
+            <li data-i18n="aud.1.li3">Galima jungti su pikniku ar seminaru</li>
+          </ul>
+          <a class="btn btn-dark" href="#uzsakymas" data-prefill="teambuilding" data-i18n="aud.1.cta">Užsakyti komandai</a>
+        </div>
+      </article>
+
+      <article class="aud-card tilt reveal" style="--d:.15s">
+        <div class="aud-media">
+          <img src="https://images.pexels.com/photos/9974657/pexels-photo-9974657.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Draugai švenčia ant ežero prieplaukos" loading="lazy">
+          <span class="aud-tag" data-i18n="aud.2.tag">Šventėms</span>
+        </div>
+        <div class="aud-body">
+          <h3 data-i18n="aud.2.title">Bernvakaris ar mergvakaris ant vandens</h3>
+          <p data-i18n="aud.2.text">Adrenalino, juoko ir nuotraukų, kurių nebus gėda rodyti. Sušlapti galima, nuobodžiauti – ne.</p>
+          <ul class="checks">
+            <li data-i18n="aud.2.li1">Jaunikis ar nuotaka – prie būgno</li>
+            <li data-i18n="aud.2.li2">Lenktynės prieš draugų komandą</li>
+            <li data-i18n="aud.2.li3">Foto / video ir šampanas krante</li>
+          </ul>
+          <a class="btn btn-dark" href="#uzsakymas" data-prefill="bachelor" data-i18n="aud.2.cta">Planuoti šventę</a>
+        </div>
+      </article>
+
+      <article class="aud-card tilt reveal" style="--d:.25s">
+        <div class="aud-media">
+          <img src="https://images.pexels.com/photos/38345549/pexels-photo-38345549.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Grupė su liemenėmis irkluoja upe" loading="lazy">
+          <span class="aud-tag" data-i18n="aud.3.tag">Draugams ir šeimoms</span>
+        </div>
+        <div class="aud-body">
+          <h3 data-i18n="aud.3.title">Laisvalaikis, kuris išjudina</h3>
+          <p data-i18n="aud.3.text">Gimtadieniai, klasės susitikimai, sporto klubų išvykos ar tiesiog kitokia sekmadienio popietė – drakono valtis tinka visiems nuo 7 metų.</p>
+          <ul class="checks">
+            <li data-i18n="aud.3.li1">Vaikai nuo 7 m. kartu su suaugusiais</li>
+            <li data-i18n="aud.3.li2">Trukmė pritaikoma grupei</li>
+            <li data-i18n="aud.3.li3">Galima jungtis prie atvirų plaukimų</li>
+          </ul>
+          <a class="btn btn-dark" href="#uzsakymas" data-prefill="leisure" data-i18n="aud.3.cta">Užsakyti laisvalaikiui</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STEPS ===== -->
+<section class="section steps-section" id="kaip-vyksta">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="steps.kicker">Kaip vyksta</span>
+      <h2 data-i18n="steps.title">Nuo užklausos iki finišo – 4 žingsniai</h2>
+    </div>
+    <ol class="steps-grid">
+      <li class="step-item reveal" style="--d:.05s">
+        <span class="step-num">01</span>
+        <h3 data-i18n="steps.1.title">Užklausa</h3>
+        <p data-i18n="steps.1.text">Užpildote formą per 2 minutes: renginio tipas, data, žmonių skaičius ir pageidavimai.</p>
+      </li>
+      <li class="step-item reveal" style="--d:.15s">
+        <span class="step-num">02</span>
+        <h3 data-i18n="steps.2.title">Pasiūlymas</h3>
+        <p data-i18n="steps.2.text">Per 24 val. gaunate pasiūlymą su laiku, vieta ir kaina. Patvirtinate – ir data jūsų.</p>
+      </li>
+      <li class="step-item reveal" style="--d:.25s">
+        <span class="step-num">03</span>
+        <h3 data-i18n="steps.3.title">Instruktažas</h3>
+        <p data-i18n="steps.3.text">Krante kapitonas išdalina liemenes bei irklus ir per 15 min. išmoko pagrindinio judesio.</p>
+      </li>
+      <li class="step-item reveal" style="--d:.35s">
+        <span class="step-num">04</span>
+        <h3 data-i18n="steps.4.title">Plaukimas</h3>
+        <p data-i18n="steps.4.text">1,5–2 val. ant vandens: treniruotė, žaidimai, lenktynės ir finišas su apdovanojimais.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== STATS BAND ===== -->
+<section class="band">
+  <div class="px-bg band-bg" data-parallax="0.15" style="background-image:url('https://images.pexels.com/photos/19606498/pexels-photo-19606498.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920')"></div>
+  <div class="band-overlay"></div>
+  <div class="container">
+    <h2 class="band-title reveal" data-i18n="stats.title">Drakono valtis skaičiais</h2>
+    <div class="stats">
+      <div class="stat reveal" style="--d:.05s"><span class="counter" data-to="20">0</span><p data-i18n="stats.1">irkluotojų vienoje valtyje</p></div>
+      <div class="stat reveal" style="--d:.15s"><span class="counter" data-to="12.5" data-decimals="1">0</span><p data-i18n="stats.2">metrų – valties ilgis</p></div>
+      <div class="stat reveal" style="--d:.25s"><span class="counter" data-to="300" data-suffix="+">0</span><p data-i18n="stats.3">komandų jau išbandė</p></div>
+      <div class="stat reveal" style="--d:.35s"><span class="counter" data-to="100" data-suffix="%">0</span><p data-i18n="stats.4">dalyvių be patirties finišuoja</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PACKAGES ===== -->
+<section class="section packages" id="paketai">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="pk.kicker">Paketai</span>
+      <h2 data-i18n="pk.title">Pasirinkite savo plaukimą</h2>
+      <p data-i18n="pk.intro">Visuose paketuose: kapitonas-instruktorius, gelbėjimosi liemenės, irklai ir instruktažas. Kainos orientacinės – tikslią pateiksime pasiūlyme.</p>
+    </div>
+
+    <div class="pk-grid">
+      <article class="pk-card is-featured reveal" style="--d:.05s">
+        <span class="pk-badge" data-i18n="pk.badge">Populiariausias</span>
+        <div class="pk-media"><img src="https://images.pexels.com/photos/31892614/pexels-photo-31892614.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Drakono valties komanda irkluoja sinchroniškai" loading="lazy"></div>
+        <div class="pk-body">
+          <h3 data-i18n="pk.1.title">Komandos plaukimas</h3>
+          <p class="pk-meta" data-i18n="pk.1.meta">iki 20 asm. · 1,5 val.</p>
+          <p class="pk-price"><span data-i18n="pk.from">nuo</span> 290 € <small data-i18n="pk.1.unit">/ valtis</small></p>
+          <ul class="checks">
+            <li data-i18n="pk.1.li1">Kapitonas ir būgnininkas</li>
+            <li data-i18n="pk.1.li2">Instruktažas krante</li>
+            <li data-i18n="pk.1.li3">Treniruotė + mini lenktynės</li>
+            <li data-i18n="pk.1.li4">Nuotraukos iš kranto</li>
+          </ul>
+          <a class="btn btn-primary" href="#uzsakymas" data-prefill="teambuilding" data-package="pk.1.title" data-i18n="pk.cta">Užsakyti šį paketą</a>
+        </div>
+      </article>
+
+      <article class="pk-card reveal" style="--d:.15s">
+        <div class="pk-media"><img src="https://images.pexels.com/photos/38191817/pexels-photo-38191817.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Dvi drakono valtys lenktyniauja iš viršaus" loading="lazy"></div>
+        <div class="pk-body">
+          <h3 data-i18n="pk.2.title">Varžybos tarp komandų</h3>
+          <p class="pk-meta" data-i18n="pk.2.meta">20–40 asm. · 2 val.</p>
+          <p class="pk-price"><span data-i18n="pk.from">nuo</span> 520 € <small data-i18n="pk.2.unit">/ 2 valtys</small></p>
+          <ul class="checks">
+            <li data-i18n="pk.2.li1">2 valtys ir 2 kapitonai</li>
+            <li data-i18n="pk.2.li2">Lenktynių formatas su finalu</li>
+            <li data-i18n="pk.2.li3">Medaliai nugalėtojams</li>
+            <li data-i18n="pk.2.li4">Tinka didelėms įmonėms</li>
+          </ul>
+          <a class="btn btn-dark" href="#uzsakymas" data-prefill="race" data-package="pk.2.title" data-i18n="pk.cta">Užsakyti šį paketą</a>
+        </div>
+      </article>
+
+      <article class="pk-card reveal" style="--d:.25s">
+        <div class="pk-media"><img src="https://images.pexels.com/photos/10598381/pexels-photo-10598381.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Drakono valtis plaukia ežeru" loading="lazy"></div>
+        <div class="pk-body">
+          <h3 data-i18n="pk.3.title">Treniruotė su treneriu</h3>
+          <p class="pk-meta" data-i18n="pk.3.meta">1–10 asm. · 1 val.</p>
+          <p class="pk-price"><span data-i18n="pk.from">nuo</span> 25 € <small data-i18n="pk.3.unit">/ asmeniui</small></p>
+          <ul class="checks">
+            <li data-i18n="pk.3.li1">Technika, ritmas, ištvermė</li>
+            <li data-i18n="pk.3.li2">Individualiai arba mažai grupei</li>
+            <li data-i18n="pk.3.li3">Pasiruošimas varžyboms</li>
+            <li data-i18n="pk.3.li4">Reguliarios treniruotės</li>
+          </ul>
+          <a class="btn btn-dark" href="#uzsakymas" data-prefill="training" data-package="pk.3.title" data-i18n="pk.cta">Užsakyti šį paketą</a>
+        </div>
+      </article>
+
+      <article class="pk-card reveal" style="--d:.35s">
+        <div class="pk-media"><img src="https://images.pexels.com/photos/36713114/pexels-photo-36713114.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Draugai su bengališkomis ugnelėmis prie ežero" loading="lazy"></div>
+        <div class="pk-body">
+          <h3 data-i18n="pk.4.title">Šventės paketas</h3>
+          <p class="pk-meta" data-i18n="pk.4.meta">bernvakariams, mergvakariams, gimtadieniams</p>
+          <p class="pk-price pk-price-text" data-i18n="pk.4.price">Kaina pagal užklausą</p>
+          <ul class="checks">
+            <li data-i18n="pk.4.li1">Tematinis scenarijus</li>
+            <li data-i18n="pk.4.li2">Foto / video valtyje</li>
+            <li data-i18n="pk.4.li3">Piknikas ar laužas po plaukimo</li>
+            <li data-i18n="pk.4.li4">Muzika ir būgno iššūkiai</li>
+          </ul>
+          <a class="btn btn-dark" href="#uzsakymas" data-prefill="bachelor" data-package="pk.4.title" data-i18n="pk.cta">Užsakyti šį paketą</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="section gallery" id="galerija">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="gal.kicker">Galerija</span>
+      <h2 data-i18n="gal.title">Akimirkos iš vandens</h2>
+    </div>
+    <div class="g-grid">
+      <a class="g-item wide reveal" href="https://images.pexels.com/photos/38347043/pexels-photo-38347043.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"><img src="https://images.pexels.com/photos/38347043/pexels-photo-38347043.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Komanda irkluoja drakono valtimi lenktynėse" loading="lazy"><span data-i18n="gal.1">Lenktynių startas</span></a>
+      <a class="g-item tall reveal" style="--d:.1s" href="https://images.pexels.com/photos/32401751/pexels-photo-32401751.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"><img src="https://images.pexels.com/photos/32401751/pexels-photo-32401751.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Drakono valtys prie kranto" loading="lazy"><span data-i18n="gal.2">Valtys laukia komandų</span></a>
+      <a class="g-item reveal" style="--d:.15s" href="https://images.pexels.com/photos/27420330/pexels-photo-27420330.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"><img src="https://images.pexels.com/photos/27420330/pexels-photo-27420330.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Drakono valčių varžybos mieste" loading="lazy"><span data-i18n="gal.3">Finišo tiesioji</span></a>
+      <a class="g-item reveal" style="--d:.2s" href="https://images.pexels.com/photos/6840916/pexels-photo-6840916.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"><img src="https://images.pexels.com/photos/6840916/pexels-photo-6840916.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Drakono valtys prie medinės prieplaukos" loading="lazy"><span data-i18n="gal.4">Prieplauka prieš startą</span></a>
+      <a class="g-item tall reveal" style="--d:.25s" href="https://images.pexels.com/photos/37305109/pexels-photo-37305109.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"><img src="https://images.pexels.com/photos/37305109/pexels-photo-37305109.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Irkluotojų siluetai saulėlydyje" loading="lazy"><span data-i18n="gal.5">Vakarinis plaukimas</span></a>
+      <a class="g-item reveal" style="--d:.3s" href="https://images.pexels.com/photos/32536629/pexels-photo-32536629.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"><img src="https://images.pexels.com/photos/32536629/pexels-photo-32536629.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Drakono valčių lenktynės parke" loading="lazy"><span data-i18n="gal.6">Komandų varžybos</span></a>
+      <a class="g-item reveal" style="--d:.35s" href="https://images.pexels.com/photos/3853034/pexels-photo-3853034.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"><img src="https://images.pexels.com/photos/3853034/pexels-photo-3853034.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000" alt="Vyrų komanda irkluoja vienu ritmu" loading="lazy"><span data-i18n="gal.7">Vienas ritmas</span></a>
+      <a class="g-item wide reveal" style="--d:.4s" href="https://images.pexels.com/photos/38804982/pexels-photo-38804982.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"><img src="https://images.pexels.com/photos/38804982/pexels-photo-38804982.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Keturios drakono valtys ramiame vandenyje" loading="lazy"><span data-i18n="gal.8">Mūsų laivynas</span></a>
+    </div>
+    <p class="gallery-note reveal" data-i18n="gal.note">Nuotraukos iš Pexels – demo versijoje. Galutiniame tinklapyje – jūsų komandų akimirkos.</p>
+  </div>
+</section>
+
+<!-- ===== CAPTAIN ===== -->
+<section class="section captain" id="kapitonas">
+  <div class="container captain-grid">
+    <div class="captain-media reveal">
+      <div class="frame">
+        <img src="assets/img/kapitonas.jpg" alt="Kapitonas Saulius prie drakono valties Trakuose" loading="lazy">
+      </div>
+      <div class="captain-badge">
+        <strong>15+</strong>
+        <span data-i18n="cap.badge">metų ant vandens</span>
+      </div>
+    </div>
+    <div class="captain-body reveal" style="--d:.15s">
+      <span class="kicker kicker-light" data-i18n="cap.kicker">Jūsų kapitonas</span>
+      <h2 data-i18n="cap.title">Saulius – dragon boat treneris ir valties kapitonas</h2>
+      <p data-i18n="cap.p1">Ilgametis drakono valčių treneris ir Drakono valčių festivalio organizatorius. Kiekvieną grupę – nuo pirmą kartą irklą paėmusių kolegų iki sportininkų – Saulius per 15 minučių paverčia komanda.</p>
+      <p data-i18n="cap.p2">Plaukimai vyksta su sertifikuota įranga, visi dalyviai gauna gelbėjimosi liemenes, o kapitonas valtyje būna visada – nuo pirmo iki paskutinio irklo mosto.</p>
+      <ul class="captain-facts">
+        <li><strong data-i18n="cap.f1.t">Sertifikuotas treneris</strong><span data-i18n="cap.f1.s">Dragon boat ir irklavimo treniruotės</span></li>
+        <li><strong data-i18n="cap.f2.t">Sauga pirmiausia</strong><span data-i18n="cap.f2.s">Instruktažas, liemenės, lydintis kapitonas</span></li>
+        <li><strong data-i18n="cap.f3.t">Festivalio organizatorius</strong><span data-i18n="cap.f3.s">Drakono valčių festivalio bendruomenė</span></li>
+      </ul>
+      <a class="btn btn-ghost" href="https://www.facebook.com/drakonovaltys/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8z"/></svg>
+        <span data-i18n="cap.fb">Sekite Facebook – Drakono valčių festivalis</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="tm.kicker">Atsiliepimai</span>
+      <h2 data-i18n="tm.title">Ką sako komandos</h2>
+    </div>
+    <div class="tm-grid">
+      <figure class="tm-card reveal" style="--d:.05s">
+        <div class="stars" aria-label="5 iš 5">★★★★★</div>
+        <blockquote data-i18n="tm.1.q">„Per dvi valandas pamatėme, kas iš tikrųjų moka klausytis ir vesti. Geriausia komandos diena per metus.“</blockquote>
+        <figcaption><span class="avatar">R</span><div><strong>Rūta</strong><span data-i18n="tm.1.who">Personalo vadovė, IT įmonė</span></div></figcaption>
+      </figure>
+      <figure class="tm-card reveal" style="--d:.15s">
+        <div class="stars" aria-label="5 iš 5">★★★★★</div>
+        <blockquote data-i18n="tm.2.q">„Bernvakaris, kurio niekas nesitikėjo. Jaunikis prie būgno – legenda. Nuotraukos vis dar sukasi grupėje.“</blockquote>
+        <figcaption><span class="avatar">T</span><div><strong>Tomas</strong><span data-i18n="tm.2.who">Pabrolys</span></div></figcaption>
+      </figure>
+      <figure class="tm-card reveal" style="--d:.25s">
+        <div class="stars" aria-label="5 iš 5">★★★★★</div>
+        <blockquote data-i18n="tm.3.q">„Buvome 36 žmonės, dvi valtys, lenktynės iki finišo. Viskas suorganizuota iki smulkmenų, atsakė per valandą.“</blockquote>
+        <figcaption><span class="avatar">L</span><div><strong>Laura</strong><span data-i18n="tm.3.who">Renginių koordinatorė</span></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section faq" id="duk">
+  <div class="container faq-grid">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="faq.kicker">DUK</span>
+      <h2 data-i18n="faq.title">Dažniausi klausimai</h2>
+      <p data-i18n="faq.intro">Neradote atsakymo? Parašykite užklausoje – atsakysime per 24 val.</p>
+      <a class="btn btn-primary" href="#uzsakymas" data-i18n="faq.cta">Užduoti klausimą</a>
+    </div>
+    <div class="faq-list reveal" style="--d:.1s">
+      <details open>
+        <summary><span data-i18n="faq.1.q">Ar reikia mokėti irkluoti?</span><i></i></summary>
+        <p data-i18n="faq.1.a">Ne. Kapitonas per 15 min. instruktažą išmoko pagrindinio judesio, o valtyje visada yra būgnininkas, kuris diktuoja ritmą. Po 10 minučių ant vandens visi irkluoja kartu.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.2.q">Kiek žmonių telpa į valtį?</span><i></i></summary>
+        <p data-i18n="faq.2.a">Standartinė drakono valtis – 20 irkluotojų, būgnininkas ir vairininkas. Didesnėms grupėms – kelios valtys ir lenktynės tarp jų.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.3.q">Ar saugu, jei nemoku plaukti?</span><i></i></summary>
+        <p data-i18n="faq.3.a">Taip. Visi dalyviai gauna gelbėjimosi liemenes, drakono valtis yra labai stabili, o kapitonas valtyje būna visada.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.4.q">Kas, jei lyja?</span><i></i></summary>
+        <p data-i18n="faq.4.a">Lengvas lietus plaukimui netrukdo – dažnai tai tik smagiau. Esant audrai ar stipriam vėjui perkeliame laiką nemokamai.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.5.q">Kur vyksta plaukimai?</span><i></i></summary>
+        <p data-i18n="faq.5.a">Pagrindinė vieta – Vilnius, Neries upė. Pagal susitarimą atvykstame ir į kitus Lietuvos ežerus bei upes – valtį atsivežame.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.6.q">Ką atsinešti?</span><i></i></summary>
+        <p data-i18n="faq.6.a">Sportinius drabužius, kuriuos galima sušlapinti, atsarginius rūbus ir gerą nuotaiką. Liemenės, irklai ir kapitonas – mūsų.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.7.q">Kaip vyksta apmokėjimas?</span><i></i></summary>
+        <p data-i18n="faq.7.a">Užklausa neįpareigoja. Patvirtinus pasiūlymą, įmonėms išrašome sąskaitą faktūrą, privatiems asmenims – apmokėjimas pavedimu arba vietoje.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BOOKING FORM ===== -->
+<section class="section booking" id="uzsakymas">
+  <div class="px-bg booking-bg" data-parallax="0.15" style="background-image:url('https://images.pexels.com/photos/15204209/pexels-photo-15204209.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920')"></div>
+  <div class="booking-overlay"></div>
+  <div class="container booking-grid" id="kontaktai">
+    <aside class="booking-aside reveal">
+      <span class="kicker kicker-light" data-i18n="bk.kicker">Užsakymas</span>
+      <h2 data-i18n="bk.title">Užklausa dėl plaukimo</h2>
+      <p data-i18n="bk.intro">Užpildykite per 2 minutes – per 24 val. atsiųsime pasiūlymą su laiku, vieta ir kaina. Užklausa neįpareigoja.</p>
+      <ul class="aside-list">
+        <li data-i18n="bk.li1">Atsakome per 24 val.</li>
+        <li data-i18n="bk.li2">Jokio išankstinio mokesčio už užklausą</li>
+        <li data-i18n="bk.li3">Datą galima keisti nemokamai</li>
+      </ul>
+      <div class="contact-block">
+        <a href="tel:+37060000000"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>+370 600 00 000</a>
+        <a href="mailto:info@drakonovaltys.lt"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>info@drakonovaltys.lt</a>
+        <a href="https://www.facebook.com/drakonovaltys/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8z"/></svg>facebook.com/drakonovaltys</a>
+      </div>
+    </aside>
+
+    <form class="booking-form reveal" id="bookingForm" novalidate style="--d:.1s">
+      <ol class="steps" aria-label="Formos žingsniai">
+        <li class="is-active"><span>1</span><em data-i18n="bk.s1">Renginys</em></li>
+        <li><span>2</span><em data-i18n="bk.s2">Detalės</em></li>
+        <li><span>3</span><em data-i18n="bk.s3">Kontaktai</em></li>
+      </ol>
+
+      <div class="form-body">
+        <p class="package-note" id="packageNote" hidden><span data-i18n="bk.pkgnote">Pasirinktas paketas:</span> <strong id="packageName"></strong></p>
+        <input type="hidden" name="package" id="packageField">
+
+        <!-- STEP 1 -->
+        <fieldset class="step is-active" data-step="1">
+          <legend data-i18n="bk.q1">Koks tai renginys?</legend>
+          <div class="radio-cards">
+            <label><input type="radio" name="type" value="teambuilding"><span class="rc"><b class="rc-title" data-i18n="bk.t.teambuilding">Įmonės teambuildingas</b><small data-i18n="bk.t.teambuilding.s">Kolegų komandai</small></span></label>
+            <label><input type="radio" name="type" value="bachelor"><span class="rc"><b class="rc-title" data-i18n="bk.t.bachelor">Bernvakaris / mergvakaris</b><small data-i18n="bk.t.bachelor.s">Šventė ant vandens</small></span></label>
+            <label><input type="radio" name="type" value="leisure"><span class="rc"><b class="rc-title" data-i18n="bk.t.leisure">Laisvalaikis su draugais ar šeima</b><small data-i18n="bk.t.leisure.s">Gimtadieniai, išvykos</small></span></label>
+            <label><input type="radio" name="type" value="training"><span class="rc"><b class="rc-title" data-i18n="bk.t.training">Treniruotė su treneriu</b><small data-i18n="bk.t.training.s">Technika ir ritmas</small></span></label>
+            <label><input type="radio" name="type" value="race"><span class="rc"><b class="rc-title" data-i18n="bk.t.race">Varžybos tarp komandų</b><small data-i18n="bk.t.race.s">2 ir daugiau valčių</small></span></label>
+          </div>
+        </fieldset>
+
+        <!-- STEP 2 -->
+        <fieldset class="step" data-step="2">
+          <legend data-i18n="bk.q2">Kada ir kiek jūsų bus?</legend>
+          <div class="grid-2">
+            <div class="field">
+              <label for="date" data-i18n="bk.date">Pageidaujama data</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="field">
+              <label for="time" data-i18n="bk.time">Paros metas</label>
+              <select id="time" name="time">
+                <option value="any" data-i18n="bk.time.any">Nesvarbu</option>
+                <option value="morning" data-i18n="bk.time.morning">Rytas (9–12)</option>
+                <option value="day" data-i18n="bk.time.day">Diena (12–16)</option>
+                <option value="evening" data-i18n="bk.time.evening">Vakaras (16–20)</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="groupSize"><span data-i18n="bk.size">Dalyvių skaičius</span>: <output id="groupSizeOut" for="groupSize"></output></label>
+            <input type="range" id="groupSize" name="size" min="1" max="100" value="20" step="1">
+            <div class="range-scale"><span>1</span><span>20</span><span>40</span><span>60</span><span>80</span><span>100</span></div>
+          </div>
+          <div class="field">
+            <label for="location" data-i18n="bk.location">Vieta</label>
+            <select id="location" name="location">
+              <option value="vilnius" data-i18n="bk.loc.vilnius">Vilnius (Neris)</option>
+              <option value="trakai" data-i18n="bk.loc.trakai">Trakai (Galvės ežeras)</option>
+              <option value="kaunas" data-i18n="bk.loc.kaunas">Kaunas (Lampėdžiai)</option>
+              <option value="other" data-i18n="bk.loc.other">Kita vieta – atvykstame pas jus</option>
+            </select>
+          </div>
+          <div class="field">
+            <span class="label" data-i18n="bk.extras">Papildomai (nebūtina)</span>
+            <div class="chips">
+              <label><input type="checkbox" name="extras" value="photo"><span data-i18n="bk.ex.photo">Nuotraukos ir video</span></label>
+              <label><input type="checkbox" name="extras" value="race"><span data-i18n="bk.ex.race">Lenktynės su medaliais</span></label>
+              <label><input type="checkbox" name="extras" value="picnic"><span data-i18n="bk.ex.picnic">Piknikas / laužas po plaukimo</span></label>
+              <label><input type="checkbox" name="extras" value="transport"><span data-i18n="bk.ex.transport">Transportas iki vietos</span></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- STEP 3 -->
+        <fieldset class="step" data-step="3">
+          <legend data-i18n="bk.q3">Kam siųsti pasiūlymą?</legend>
+          <div class="grid-2">
+            <div class="field">
+              <label for="name" data-i18n="bk.name">Vardas, pavardė *</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="company" data-i18n="bk.company">Įmonė (nebūtina)</label>
+              <input type="text" id="company" name="company" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="phone" data-i18n="bk.phone">Telefonas *</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+370">
+            </div>
+            <div class="field">
+              <label for="email" data-i18n="bk.email">El. paštas *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="bk.message">Žinutė</label>
+            <textarea id="message" name="message" rows="4" data-i18n-placeholder="bk.message.ph" placeholder="Papasakokite apie progą, pageidavimus, tikslesnį laiką..."></textarea>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span data-i18n="bk.consent">Sutinku, kad mano duomenys būtų naudojami atsakyti į šią užklausą.</span>
+          </label>
+        </fieldset>
+
+        <p class="form-error" id="formError" hidden role="alert"></p>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-outline" id="prevBtn" hidden data-i18n="bk.back">Atgal</button>
+          <button type="button" class="btn btn-primary" id="nextBtn" data-i18n="bk.next">Toliau</button>
+          <button type="submit" class="btn btn-primary" id="submitBtn" hidden data-i18n="bk.submit">Siųsti užklausą</button>
+        </div>
+      </div>
+
+      <div class="form-success" id="formSuccess" hidden>
+        <div class="success-icon"><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3 data-i18n="bk.ok.title">Ačiū! Užklausa gauta.</h3>
+        <p data-i18n="bk.ok.text">Per 24 val. susisieksime el. paštu arba telefonu su pasiūlymu. Jūsų užklausos santrauka:</p>
+        <dl class="summary" id="summaryList"></dl>
+        <button type="button" class="btn btn-outline" id="resetForm" data-i18n="bk.ok.again">Nauja užklausa</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#top"><img class="brand-mark" src="assets/img/logo.png" alt="" width="64" height="44"><span class="brand-text">Drakono <b>valtys</b></span></a>
+      <p data-i18n="ft.desc">Plaukimai drakono valtimi grupėms su kapitonu. Teambuildingai, šventės, treniruotės – Vilniuje ir visoje Lietuvoje.</p>
+    </div>
+    <div>
+      <h4 data-i18n="ft.nav">Navigacija</h4>
+      <ul>
+        <li><a href="#kam" data-i18n="nav.who">Kam skirta</a></li>
+        <li><a href="#kaip-vyksta" data-i18n="nav.how">Kaip vyksta</a></li>
+        <li><a href="#paketai" data-i18n="nav.packages">Paketai</a></li>
+        <li><a href="#galerija" data-i18n="nav.gallery">Galerija</a></li>
+        <li><a href="#duk" data-i18n="nav.faq">DUK</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="ft.contacts">Kontaktai</h4>
+      <ul>
+        <li><a href="tel:+37060000000">+370 600 00 000</a></li>
+        <li><a href="mailto:info@drakonovaltys.lt">info@drakonovaltys.lt</a></li>
+        <li data-i18n="ft.addr">Vilnius, Neries krantinė</li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="ft.follow">Sekite</h4>
+      <ul>
+        <li><a href="https://www.facebook.com/drakonovaltys/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#" data-i18n="ft.ig">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span data-i18n="ft.copy">© 2026 Drakono valtys. Demo versija.</span>
+    <span data-i18n="ft.photos">Nuotraukos: Pexels</span>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="#uzsakymas" data-i18n="fab">Siųsti užklausą</a>
+
+<dialog class="lightbox" id="lightbox">
+  <button type="button" class="lb-close" id="lightboxClose" aria-label="Uždaryti">×</button>
+  <img id="lightboxImg" alt="">
+</dialog>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
